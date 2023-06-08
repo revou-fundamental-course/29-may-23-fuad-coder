@@ -1,0 +1,64 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nav-item{
+    padding: 5px 1em;
+    width: 90px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background: blueviolet;
+    margin-top: -2px;
+}
+.nav-bar:last-child{
+    border-right: none;
+}
+.hero{
+    height: 550px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61dee4b2dc58f411f5a08d55_RevoU%20(2).jpg");
+    object-fit: contain;
+}
+img{
+    height:4em;
+}
+.hero{
+    height: 550px;
+}
+.wrapper{
+    display: flex;
+}
+.headquarters-image-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+}
+.headquarters-image{
+    height: 5em;
+    width: 5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#kirim{
+    text-align: center;
+    padding: 0.5em;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
