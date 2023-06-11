@@ -16,6 +16,8 @@
             <div class="nav-item">Portofolio</div>
             <div class="nav-item">Message Us</div>
         </div>
+       
+           
     </header>
         <div id="hero" class="hero" >
             <!-- <img src="x" alt="hero image"> -->
@@ -71,14 +73,23 @@
                         </td>
                     </tr>
                 </table>
-                <button type="submit">kirim</button>
+                <button type="submit" id="kirim">kirim</button>
             </form>
             <div id="result"></div>
         </div>
         <div></div>
         <div></div>
     <footer>Created By Fuad Hasan</footer>
-    
-    <script src="js/script.js"></script>
+    <script>
+        var text = ("Hello World");
+        document.getElementById("kirim").addEventListener('click', function() {
+        console.log(text);
+        })
+            document.getElementById("input-nama").addEventListener('input', function() {
+            var nama = document.getElementById("input-nama"). value;
+            console.log(nama);
+         })
+    </script>
+
 </body>
 </html>
